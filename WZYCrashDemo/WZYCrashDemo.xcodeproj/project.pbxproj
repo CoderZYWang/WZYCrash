@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E41B18061E162D4200980246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E41B18051E162D4200980246 /* main.m */; };
+		E41B18091E162D4200980246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E41B18081E162D4200980246 /* AppDelegate.m */; };
+		E41B180C1E162D4200980246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41B180B1E162D4200980246 /* ViewController.m */; };
+		E41B180F1E162D4200980246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41B180D1E162D4200980246 /* Main.storyboard */; };
+		E41B18111E162D4200980246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41B18101E162D4200980246 /* Assets.xcassets */; };
+		E41B18141E162D4200980246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41B18121E162D4200980246 /* LaunchScreen.storyboard */; };
+		E41B18221E162D5200980246 /* WZYCrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E41B181D1E162D5200980246 /* WZYCrashHandler.m */; };
+		E41B18231E162D5200980246 /* WZYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E41B181F1E162D5200980246 /* WZYTools.m */; };
+		E41B18241E162D5200980246 /* WZYUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E41B18211E162D5200980246 /* WZYUncaughtExceptionHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E41B18011E162D4200980246 /* WZYCrashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZYCrashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41B18051E162D4200980246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E41B18071E162D4200980246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E41B18081E162D4200980246 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E41B180A1E162D4200980246 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E41B180B1E162D4200980246 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E41B180E1E162D4200980246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E41B18101E162D4200980246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E41B18131E162D4200980246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E41B18151E162D4200980246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41B181C1E162D5200980246 /* WZYCrashHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZYCrashHandler.h; sourceTree = "<group>"; };
+		E41B181D1E162D5200980246 /* WZYCrashHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZYCrashHandler.m; sourceTree = "<group>"; };
+		E41B181E1E162D5200980246 /* WZYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZYTools.h; sourceTree = "<group>"; };
+		E41B181F1E162D5200980246 /* WZYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZYTools.m; sourceTree = "<group>"; };
+		E41B18201E162D5200980246 /* WZYUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZYUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		E41B18211E162D5200980246 /* WZYUncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZYUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E41B17FE1E162D4200980246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E41B17F81E162D4200980246 = {
+			isa = PBXGroup;
+			children = (
+				E41B18031E162D4200980246 /* WZYCrashDemo */,
+				E41B18021E162D4200980246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E41B18021E162D4200980246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E41B18011E162D4200980246 /* WZYCrashDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E41B18031E162D4200980246 /* WZYCrashDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E41B181B1E162D5200980246 /* WZYCrash */,
+				E41B18071E162D4200980246 /* AppDelegate.h */,
+				E41B18081E162D4200980246 /* AppDelegate.m */,
+				E41B180A1E162D4200980246 /* ViewController.h */,
+				E41B180B1E162D4200980246 /* ViewController.m */,
+				E41B180D1E162D4200980246 /* Main.storyboard */,
+				E41B18101E162D4200980246 /* Assets.xcassets */,
+				E41B18121E162D4200980246 /* LaunchScreen.storyboard */,
+				E41B18151E162D4200980246 /* Info.plist */,
+				E41B18041E162D4200980246 /* Supporting Files */,
+			);
+			path = WZYCrashDemo;
+			sourceTree = "<group>";
+		};
+		E41B18041E162D4200980246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E41B18051E162D4200980246 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E41B181B1E162D5200980246 /* WZYCrash */ = {
+			isa = PBXGroup;
+			children = (
+				E41B181C1E162D5200980246 /* WZYCrashHandler.h */,
+				E41B181D1E162D5200980246 /* WZYCrashHandler.m */,
+				E41B181E1E162D5200980246 /* WZYTools.h */,
+				E41B181F1E162D5200980246 /* WZYTools.m */,
+				E41B18201E162D5200980246 /* WZYUncaughtExceptionHandler.h */,
+				E41B18211E162D5200980246 /* WZYUncaughtExceptionHandler.m */,
+			);
+			path = WZYCrash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E41B18001E162D4200980246 /* WZYCrashDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41B18181E162D4200980246 /* Build configuration list for PBXNativeTarget "WZYCrashDemo" */;
+			buildPhases = (
+				E41B17FD1E162D4200980246 /* Sources */,
+				E41B17FE1E162D4200980246 /* Frameworks */,
+				E41B17FF1E162D4200980246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZYCrashDemo;
+			productName = WZYCrashDemo;
+			productReference = E41B18011E162D4200980246 /* WZYCrashDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E41B17F91E162D4200980246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wzy;
+				TargetAttributes = {
+					E41B18001E162D4200980246 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4UL2LK3HBV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E41B17FC1E162D4200980246 /* Build configuration list for PBXProject "WZYCrashDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E41B17F81E162D4200980246;
+			productRefGroup = E41B18021E162D4200980246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E41B18001E162D4200980246 /* WZYCrashDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E41B17FF1E162D4200980246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41B18141E162D4200980246 /* LaunchScreen.storyboard in Resources */,
+				E41B18111E162D4200980246 /* Assets.xcassets in Resources */,
+				E41B180F1E162D4200980246 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E41B17FD1E162D4200980246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41B180C1E162D4200980246 /* ViewController.m in Sources */,
+				E41B18221E162D5200980246 /* WZYCrashHandler.m in Sources */,
+				E41B18241E162D5200980246 /* WZYUncaughtExceptionHandler.m in Sources */,
+				E41B18091E162D4200980246 /* AppDelegate.m in Sources */,
+				E41B18231E162D5200980246 /* WZYTools.m in Sources */,
+				E41B18061E162D4200980246 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E41B180D1E162D4200980246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41B180E1E162D4200980246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E41B18121E162D4200980246 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41B18131E162D4200980246 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E41B18161E162D4200980246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E41B18171E162D4200980246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E41B18191E162D4200980246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UL2LK3HBV;
+				INFOPLIST_FILE = WZYCrashDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderZYWang.dev.WZYCrashDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E41B181A1E162D4200980246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UL2LK3HBV;
+				INFOPLIST_FILE = WZYCrashDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderZYWang.dev.WZYCrashDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E41B17FC1E162D4200980246 /* Build configuration list for PBXProject "WZYCrashDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41B18161E162D4200980246 /* Debug */,
+				E41B18171E162D4200980246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41B18181E162D4200980246 /* Build configuration list for PBXNativeTarget "WZYCrashDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41B18191E162D4200980246 /* Debug */,
+				E41B181A1E162D4200980246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E41B17F91E162D4200980246 /* Project object */;
+}
